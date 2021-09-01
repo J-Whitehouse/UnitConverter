@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="center" axis="vertical" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="spn-Eu-pHN">
-                                <rect key="frame" x="10" y="94" width="394" height="160"/>
+                                <rect key="frame" x="10" y="94" width="394" height="319"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nAY-jV-Xfs">
                                         <rect key="frame" x="0.0" y="0.0" width="394" height="34"/>
@@ -35,6 +35,27 @@
                                         <state key="normal" title="Miles to Kilometers"/>
                                         <connections>
                                             <action selector="milesToKM:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KCY-g9-w7I"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfN-jN-Nuh">
+                                        <rect key="frame" x="131.5" y="183" width="131" height="30"/>
+                                        <state key="normal" title="Kilometers to Miles"/>
+                                        <connections>
+                                            <action selector="KMToMiles:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mkg-lH-eze"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pZ-b7-JQ2">
+                                        <rect key="frame" x="123.5" y="236" width="147" height="30"/>
+                                        <state key="normal" title="Fahrenheit To Celsius"/>
+                                        <connections>
+                                            <action selector="FToC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xai-tj-xSw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pbl-hc-BpV">
+                                        <rect key="frame" x="125" y="289" width="144" height="30"/>
+                                        <state key="normal" title="Celsius to Fahrenheit"/>
+                                        <connections>
+                                            <action selector="CToF:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5r3-fZ-8CW"/>
                                         </connections>
                                     </button>
                                 </subviews>
